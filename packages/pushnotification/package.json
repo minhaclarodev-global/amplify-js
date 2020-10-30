@@ -1,6 +1,6 @@
 {
-  "name": "@aws-amplify/pushnotification",
-  "version": "3.2.8",
+  "name": "globalhitss-amplify-pushnotification",
+  "version": "3.2.7",
   "description": "Push notifications category of aws-amplify",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
@@ -18,13 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws-amplify/amplify-js.git"
+    "url": "https://github.com/minhaclarodev-global/amplify-js"
   },
   "author": "Amazon Web Services",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/aws/aws-amplify/issues"
-  },
   "homepage": "https://aws-amplify.github.io/",
   "devDependencies": {
     "@types/jest": "^20.0.8",
@@ -44,7 +41,7 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
-    "@aws-amplify/core": "^3.8.0",
+    "@aws-amplify/core": "^3.7.0",
     "@react-native-community/push-notification-ios": "1.0.3"
   },
   "peerdependencies": {
