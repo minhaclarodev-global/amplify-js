@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.3.0 (2020-10-30)
+
+
+### Bug Fixes
+
+* **@aws-amplify/pushnotification:** fetch and cache the token if not in local ([8ba2e7f](https://github.com/minhaclarodev-global/amplify-js/commit/8ba2e7f32a33cecf99d0c69387cf7fc43c8f24dd))
+* **@aws-amplify/pushnotification:** import necessary lib ([763caf5](https://github.com/minhaclarodev-global/amplify-js/commit/763caf5351acae76ca1e85706b1a0321f47845bb))
+* **@aws-amplify/pushnotification:** only initialize push notifications when config is present ([#5975](https://github.com/minhaclarodev-global/amplify-js/issues/5975)) ([c2692c3](https://github.com/minhaclarodev-global/amplify-js/commit/c2692c34c78f436f273dfcb22d2384484ced4e70))
+* **@aws-amplify/pushnotification:** open app on device with Android 8.0 ([a5a7ce9](https://github.com/minhaclarodev-global/amplify-js/commit/a5a7ce99ff4e3e8dedcdf62f79ded60ad337361c))
+* **@aws-amplify/pushnotification:** send campaign open events when app is opend by notification ([d21d4fe](https://github.com/minhaclarodev-global/amplify-js/commit/d21d4fe25ccb5399479a5e78d869cf7a75776a3d))
+* **@aws-amplify/pushnotifications:** moved notificationManager creation earlier to allow for notificationChannel creation ([cac7144](https://github.com/minhaclarodev-global/amplify-js/commit/cac7144356ab5ac81fe7ff438500a665a35c7e80))
+* **aws-amplify:** manual version bumps for lerna issue ([9ce5a72](https://github.com/minhaclarodev-global/amplify-js/commit/9ce5a720a659ee01857feadc12f169fdc1c8cbaa))
+* **aws-amplify-angular:** Angular rollup ([#1441](https://github.com/minhaclarodev-global/amplify-js/issues/1441)) ([eb84e01](https://github.com/minhaclarodev-global/amplify-js/commit/eb84e012397b8ba4ef93083da7ccc52e1b3d39fb))
+* **aws-amplify-react-native:** Use SecureRandom instead of Random for better security. ([#5418](https://github.com/minhaclarodev-global/amplify-js/issues/5418)) ([4f3ba81](https://github.com/minhaclarodev-global/amplify-js/commit/4f3ba811a422159d7d8db821963c3381cfaac571))
+* **dependencies:** pin version for push-notification-ios ([#4696](https://github.com/minhaclarodev-global/amplify-js/issues/4696)) ([c06f8c9](https://github.com/minhaclarodev-global/amplify-js/commit/c06f8c93b7bf0cb7ed47fac68cd2cd63c97785da))
+
+
+### Features
+
+* **@aws-amplify/pushnotification:** inherit compileSdkVersion from project ([#5475](https://github.com/minhaclarodev-global/amplify-js/issues/5475)) ([8744976](https://github.com/minhaclarodev-global/amplify-js/commit/874497611cb69ba7272e216fb688cac0934c9cb8))
+* **SSR:** withSSRContext ([#6146](https://github.com/minhaclarodev-global/amplify-js/issues/6146)) ([1cb1afd](https://github.com/minhaclarodev-global/amplify-js/commit/1cb1afd1e56135908dceb2ef6403f0b3e78067fe))
+* added image in push and handleOpened ([4efe22b](https://github.com/minhaclarodev-global/amplify-js/commit/4efe22b2692a6cefd5ab3bdc5e69c2cabb1ee1d5))
+* Added Prettier formatting ([4dfd9aa](https://github.com/minhaclarodev-global/amplify-js/commit/4dfd9aa9ab900307c9d17c68448a6ca4aa08fd5a))
+* enable watch mode for builds ([#4358](https://github.com/minhaclarodev-global/amplify-js/issues/4358)) ([055e530](https://github.com/minhaclarodev-global/amplify-js/commit/055e5308efc308ae6beee78f8963bb2f812e1f85))
+
+
+### Reverts
+
+* Revert "Publish" ([1319d31](https://github.com/minhaclarodev-global/amplify-js/commit/1319d319b69717e76660fbfa6f1a845195c6d635))
+* Revert "chore(release): Publish [ci skip]" ([9b03c49](https://github.com/minhaclarodev-global/amplify-js/commit/9b03c49b0ba5eef09920017386c9fae139b6e0f9))
+
+
+
+
+
 ## [3.2.8](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/pushnotification@3.2.7...@aws-amplify/pushnotification@3.2.8) (2020-10-29)
 
 **Note:** Version bump only for package @aws-amplify/pushnotification
